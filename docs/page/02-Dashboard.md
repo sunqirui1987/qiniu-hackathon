@@ -17,6 +17,39 @@
 
 ---
 
+## URL路由结构
+
+### Dashboard路由系统
+
+```
+/dashboard                                      - 项目列表页(本页面)
+/dashboard/:projectId                           - 项目工作台(重定向到scriptView)
+/dashboard/:projectId/scriptView                - 剧本编辑视图
+/dashboard/:projectId/roleView                  - 角色管理视图
+/dashboard/:projectId/tableView                 - 分镜表编辑视图
+/dashboard/:projectId/videoView                 - 视频编辑视图
+```
+
+### 路由参数
+
+```typescript
+type ProjectId = string;  // UUID格式: "e8d297baeb01e1a0f0318c4daaaf584f"
+type ViewType = 'scriptView' | 'roleView' | 'tableView' | 'videoView';
+```
+
+### Tab视图切换
+
+当用户点击项目卡片"编辑"按钮时，跳转到项目工作台，工作台包含四个Tab视图:
+
+1. **scriptView** - 剧本编辑视图（默认）
+2. **roleView** - 角色管理视图
+3. **tableView** - 分镜表编辑视图
+4. **videoView** - 视频编辑视图
+
+详见: [架构设计 - 路由架构](../架构设计.md#1-路由架构)
+
+---
+
 ## 布局结构
 
 ### 整体布局（双栏布局）
@@ -30,6 +63,56 @@
 │           │                                                 │
 │           │                                                 │
 └───────────┴─────────────────────────────────────────────────┘
+```
+
+### 项目工作台布局（Tab视图）
+
+当进入项目编辑页面时，显示Tab导航:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 顶部导航栏 [Logo] [项目名] [保存][预览][导出]                 │
+├─────────────────────────────────────────────────────────────┤
+│ [剧本] [角色] [分镜表] [视频] ← Tab导航                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                      当前Tab内容区域                          │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+#### Tab导航样式
+
+```css
+Tab容器:
+  高度: 56px
+  背景: #FFFFFF
+  边框底部: 1px solid #E4E7EC
+  内边距: 0 24px
+  
+Tab项:
+  高度: 56px
+  内边距: 0 20px
+  字号: 14px
+  字重: Medium
+  颜色: #667085 (默认)
+  
+  悬停态:
+    颜色: #344054
+    背景: #F9FAFB
+  
+  选中态:
+    颜色: 主色
+    边框底部: 3px solid 主色
+```
+
+#### Tab切换逻辑
+
+```typescript
+const switchTab = (viewType: ViewType) => {
+  const projectId = route.params.projectId;
+  router.push(`/dashboard/${projectId}/${viewType}`);
+};
 ```
 
 ---
