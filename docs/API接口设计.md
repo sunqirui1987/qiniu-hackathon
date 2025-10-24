@@ -4,6 +4,188 @@
 
 本文档基于前端UI交互分析，提取并设计OneStory平台的后台API接口。所有接口均基于RESTful规范设计。
 
+---
+
+## RESTful API设计规范
+
+### 命名规范
+
+#### URL路径规范
+
+1. **使用名词复数形式**
+   ```
+   ✅ /api/projects
+   ✅ /api/users
+   ❌ /api/project
+   ❌ /api/user
+   ```
+
+2. **使用中划线（kebab-case）连接多个单词**
+   ```
+   ✅ /api/video-models
+   ✅ /api/user-profiles
+   ❌ /api/video_models
+   ❌ /api/userProfiles
+   ```
+
+3. **资源嵌套不超过2层**
+   ```
+   ✅ /api/projects/{projectId}/storyboards
+   ✅ /api/storyboards/{storyboardId}/shots
+   ❌ /api/projects/{projectId}/storyboards/{storyboardId}/shots/{shotId}/images
+   ```
+
+4. **避免在URL中使用动词**
+   ```
+   ✅ POST /api/projects             (创建项目)
+   ✅ GET /api/projects/{id}         (获取项目)
+   ✅ PUT /api/projects/{id}         (更新项目)
+   ✅ DELETE /api/projects/{id}      (删除项目)
+   
+   ❌ POST /api/project/create
+   ❌ POST /api/project/update
+   ❌ POST /api/project/delete
+   ```
+
+5. **特殊操作使用子资源**
+   ```
+   ✅ POST /api/storyboards/{id}/generate-images
+   ✅ POST /api/projects/{id}/publish
+   ✅ POST /api/videos/{id}/export
+   ```
+
+#### HTTP方法使用规范
+
+| 方法 | 用途 | 示例 |
+|-----|------|------|
+| GET | 获取资源 | GET /api/projects |
+| POST | 创建资源 | POST /api/projects |
+| PUT | 完整更新资源 | PUT /api/projects/{id} |
+| PATCH | 部分更新资源 | PATCH /api/projects/{id} |
+| DELETE | 删除资源 | DELETE /api/projects/{id} |
+
+---
+
+## 统一响应格式规范
+
+### 成功响应格式
+
+所有API成功响应必须遵循以下格式：
+
+```typescript
+interface SuccessResponse<T> {
+  code: 0;                    // 成功时固定为0
+  message?: string;           // 可选的成功消息
+  data: T;                    // 实际数据，类型根据接口而定
+}
+```
+
+#### 示例
+
+```json
+{
+  "code": 0,
+  "message": "操作成功",
+  "data": {
+    "id": "e8d297baeb01e1a0f0318c4daaaf584f",
+    "name": "新建项目2025-10-24",
+    "createdAt": "2025-10-24T13:21:00Z"
+  }
+}
+```
+
+### 分页响应格式
+
+分页数据必须包含 `total` 和 `list`/`items` 字段：
+
+```typescript
+interface PaginatedResponse<T> {
+  code: 0;
+  data: {
+    total: number;            // 总记录数
+    list: T[];                // 数据列表
+    pageNum?: number;         // 当前页码（可选）
+    pageSize?: number;        // 每页大小（可选）
+  }
+}
+```
+
+#### 示例
+
+```json
+{
+  "code": 0,
+  "data": {
+    "total": 156,
+    "pageNum": 1,
+    "pageSize": 20,
+    "list": [
+      {
+        "id": "f6d162c030ddc58947585ce3925a8813",
+        "name": "新建项目2025-10-24_13:21",
+        "coverUrl": "...",
+        "updateTime": "2025-10-24T13:21:00Z"
+      }
+    ]
+  }
+}
+```
+
+### 错误响应格式
+
+所有API错误响应必须遵循以下格式：
+
+```typescript
+interface ErrorResponse {
+  code: number;               // 错误码（非0）
+  message: string;            // 错误描述
+  data?: {                    // 可选的额外错误信息
+    field?: string;           // 出错字段
+    details?: string;         // 详细错误信息
+  }
+}
+```
+
+#### 错误码规范
+
+| 错误码 | 含义 | HTTP状态码 |
+|-------|------|-----------|
+| 0 | 成功 | 200 |
+| 400 | 请求参数错误 | 400 |
+| 401 | 未授权/Token失效 | 401 |
+| 403 | 权限不足 | 403 |
+| 404 | 资源不存在 | 404 |
+| 409 | 资源冲突（如版本冲突） | 409 |
+| 422 | 业务逻辑错误 | 422 |
+| 429 | 请求频率超限 | 429 |
+| 500 | 服务器内部错误 | 500 |
+| 503 | 服务暂不可用 | 503 |
+
+#### 错误响应示例
+
+```json
+{
+  "code": 401,
+  "message": "Token已过期，请重新登录",
+  "data": {
+    "expiredAt": "2025-10-24T12:00:00Z"
+  }
+}
+```
+
+```json
+{
+  "code": 422,
+  "message": "项目名称已存在",
+  "data": {
+    "field": "name",
+    "details": "项目名称'新建项目2025-10-24'已被使用"
+  }
+}
+```
+
+---
+
 ## 通用规范
 
 ### 基础信息
@@ -11,34 +193,38 @@
 - **基础URL**: `https://onestory.art/api`
 - **协议**: HTTPS
 - **数据格式**: JSON
+- **字符编码**: UTF-8
 
 ### 通用请求头
 
 所有需要认证的接口都需要包含以下请求头：
 
-```
+```http
 Authorization: Bearer {JWT_TOKEN}
 Content-Type: application/json
-Accept: application/json, text/plain, */*
+Accept: application/json
+Accept-Language: zh-CN,en
 ```
 
-### 通用响应格式
+### 分页参数规范
 
-```json
-{
-  "code": 0,
-  "message": "success",
-  "data": {}
+所有列表查询接口应支持以下分页参数：
+
+```typescript
+interface PaginationParams {
+  pageNum: number;            // 页码，从1开始
+  pageSize: number;           // 每页大小，默认20，最大100
 }
 ```
 
-### 错误码规范
+### 时间格式规范
 
-- `0`: 成功
-- `401`: 未授权
-- `403`: 权限不足
-- `404`: 资源不存在
-- `500`: 服务器错误
+所有时间字段必须使用 ISO 8601 格式：
+
+```
+2025-10-24T13:21:00Z        // UTC时间
+2025-10-24T13:21:00+08:00   // 带时区
+```
 
 ---
 
