@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStory - AI驱动的视频故事板创作平台</title>
+    <meta name="description" content="OneStory是专业的AI视频故事板创作工具，帮助创作者快速将创意转化为可视化分镜脚本。">
+    <meta name="keywords" content="视频故事板,AI创作,分镜脚本,视频制作">
+    
+    <meta property="og:title" content="OneStory - AI驱动的视频故事板创作平台">
+    <meta property="og:description" content="让每个创意都能快速呈现">
+    <meta property="og:image" content="https://onestory.art/og-image.jpg">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar" aria-label="主导航">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.svg" alt="OneStory Logo" height="40">
+            </div>
+            <div class="nav-actions">
+                <button class="btn-secondary" id="loginBtn" aria-label="登录">登录</button>
+                <button class="btn-primary" id="registerBtn" aria-label="注册">注册</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section" aria-label="产品展示">
+            <div class="hero-container">
+                <div class="hero-video-wrapper">
+                    <video 
+                        id="heroVideo" 
+                        class="hero-video" 
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline
+                        poster="assets/images/hero-poster.jpg">
+                        <source src="https://static.chuangyi-keji.com/Showcase/ShowcaseJmzf/ShowcaseJmzfVideo.mp4" type="video/mp4">
+                        您的浏览器不支持视频播放。
+                    </video>
+                </div>
+                
+                <div class="hero-content">
+                    <h1 class="hero-title">AI驱动的视频故事板创作平台</h1>
+                    <p class="hero-subtitle">让每个创意都能快速呈现</p>
+                    <button class="btn-cta" id="ctaBtn" aria-label="开始创作">开始创作</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase-section">
+            <div class="showcase-container">
+                <h2 class="section-title">精选案例展示</h2>
+                <div class="showcase-grid" id="showcaseGrid">
+                    <div class="showcase-card" data-video-id="ShowcaseJmzf">
+                        <div class="showcase-video-wrapper">
+                            <video class="showcase-video" muted playsinline>
+                                <source src="https://static.chuangyi-keji.com/Showcase/ShowcaseJmzf/ShowcaseJmzfVideo.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <div class="showcase-info">
+                            <h3 class="showcase-title">今麦郎方便面案例</h3>
+                            <p class="showcase-description">展示产品特色的创意视频故事板</p>
+                        </div>
+                    </div>
+
+                    <div class="showcase-card" data-video-id="ShowcaseLYX0603">
+                        <div class="showcase-video-wrapper">
+                            <video class="showcase-video" muted playsinline>
+                                <source src="https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/ShowcaseLYX0603Video.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <div class="showcase-info">
+                            <h3 class="showcase-title">产品宣传案例</h3>
+                            <p class="showcase-description">专业的产品展示视频制作</p>
+                        </div>
+                    </div>
+
+                    <div class="showcase-card" data-video-id="ShowcaseZyxfj">
+                        <div class="showcase-video-wrapper">
+                            <video class="showcase-video" muted playsinline>
+                                <source src="https://static.chuangyi-keji.com/Showcase/ShowcaseZyxfj/ShowcaseZyxfjVideo.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <div class="showcase-info">
+                            <h3 class="showcase-title">综合案例展示</h3>
+                            <p class="showcase-description">多场景视频故事板应用</p>
+                        </div>
+                    </div>
+
+                    <div class="showcase-card" data-video-id="ShowcaseXSFQG">
+                        <div class="showcase-video-wrapper">
+                            <video class="showcase-video" muted playsinline>
+                                <source src="https://static.chuangyi-keji.com/Showcase/ShowcaseXSFQG/ShowcaseXSFQGVideo.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <div class="showcase-info">
+                            <h3 class="showcase-title">创意案例</h3>
+                            <p class="showcase-description">发挥想象力的视频创作</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="assets/images/logo.svg" alt="OneStory Logo" height="32">
+            </div>
+            
+            <nav class="footer-nav" aria-label="页脚导航">
+                <a href="#about">关于我们</a>
+                <span class="divider">|</span>
+                <a href="#help">帮助中心</a>
+                <span class="divider">|</span>
+                <a href="#contact">联系我们</a>
+                <span class="divider">|</span>
+                <a href="#privacy">隐私政策</a>
+            </nav>
+            
+            <div class="footer-social">
+                <a href="#" class="social-icon" aria-label="TikTok">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="Bilibili">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373z"></path>
+                    </svg>
+                </a>
+            </div>
+            
+            <p class="footer-copyright">© 2025 OneStory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="loginModal" class="modal" role="dialog" aria-labelledby="loginTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="loginTitle">登录</h2>
+                <button class="modal-close" aria-label="关闭">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>登录功能开发中...</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal" role="dialog" aria-labelledby="registerTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="registerTitle">注册</h2>
+                <button class="modal-close" aria-label="关闭">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>注册功能开发中...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
