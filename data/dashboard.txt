@@ -1,0 +1,1729 @@
+fetch("https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761287901; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "{\"api_key\":\"1449591c6ec2e4a23f2c414d3507db3e\",\"events\":[{\"device_id\":\"cd892ecb-6abf-4ca0-a2b7-191d8c621a85\",\"session_id\":1761288111600,\"time\":1761288137880,\"platform\":\"Web\",\"language\":\"zh-CN\",\"ip\":\"$remote\",\"insert_id\":\"7db533ca-d8ca-409e-91ea-3902420d8502\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"onestory.art\",\"[Amplitude] Page Location\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\",\"[Amplitude] Page Path\":\"/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\",\"[Amplitude] Page Title\":\"OneStory\",\"[Amplitude] Page URL\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\",\"[Amplitude] Page Counter\":2},\"event_id\":62,\"library\":\"amplitude-ts/2.9.3\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}],\"options\":{},\"client_upload_time\":\"2025-10-24T06:42:18.882Z\",\"request_metadata\":{\"sdk\":{\"metrics\":{\"histogram\":{}}}}}",
+  "method": "POST"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://hm.baidu.com/hm.gif?hca=4E433986F8AB89C3&cc=1&ck=1&cl=30-bit&ds=1512x982&vl=764&ep=5448823%2C45635&et=3&ja=0&ln=zh-cn&lo=0&lt=1761276475&rnd=1905688325&si=26f513fb9586da8472f4b91c21144515&v=1.3.2&lv=2&sn=29572&r=0&ww=1512&u=https%3A%2F%2Fonestory.art%2Fdashboard%2Fe8d297baeb01e1a0f0318c4daaaf584f%2FscriptView", {
+  "headers": {
+    "cache-control": "max-age=0",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/index-CKrN9dCp.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761287901; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/index-BqYiNvCQ.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761287901; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://hm.baidu.com/hm.js?26f513fb9586da8472f4b91c21144515", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "cookie": "HMACCOUNT_BFESS=4E433986F8AB89C3; BDUSS_BFESS=VdycFZMMHVKa1VBOVlJZXU4ZGxFbHNoZ2JMR1MwdGJwdmhjMDl-QURWaUlNUGRvSVFBQUFBJCQAAAAAAAAAAAEAAABpMJM7Y2ZrZ2hqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIijz2iIo89oZ; BAIDUID_BFESS=E910E5C94A8D4F74E24A2A803CC61AB5:FG=1; ZFY=bc:Af5ydHiXzG3U70pmU2ZhbU5Mm698PCJsth9s:ASeZo:C",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://hm.baidu.com/hm.gif?hca=4E433986F8AB89C3&cc=1&ck=1&cl=30-bit&ds=1512x982&vl=764&ep=5448823%2C45635&et=3&ja=0&ln=zh-cn&lo=0&lt=1761276475&rnd=1905688325&si=26f513fb9586da8472f4b91c21144515&v=1.3.2&lv=2&sn=29572&r=0&ww=1512&u=https%3A%2F%2Fonestory.art%2Fdashboard%2Fe8d297baeb01e1a0f0318c4daaaf584f%2FscriptView", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "cookie": "HMACCOUNT_BFESS=4E433986F8AB89C3; BDUSS_BFESS=VdycFZMMHVKa1VBOVlJZXU4ZGxFbHNoZ2JMR1MwdGJwdmhjMDl-QURWaUlNUGRvSVFBQUFBJCQAAAAAAAAAAAEAAABpMJM7Y2ZrZ2hqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIijz2iIo89oZ; BAIDUID_BFESS=E910E5C94A8D4F74E24A2A803CC61AB5:FG=1; ZFY=bc:Af5ydHiXzG3U70pmU2ZhbU5Mm698PCJsth9s:ASeZo:C",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://hm.baidu.com/hm.gif?hca=4E433986F8AB89C3&cc=1&ck=1&cl=30-bit&ds=1512x982&vl=729&et=0&ja=0&ln=zh-cn&lo=0&lt=1761276475&rnd=124603753&si=26f513fb9586da8472f4b91c21144515&v=1.3.2&lv=2&sn=35026&r=0&ww=1352&u=https%3A%2F%2Fonestory.art%2Fdashboard%2Fe8d297baeb01e1a0f0318c4daaaf584f%2FscriptView&tt=OneStory", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "cookie": "HMACCOUNT_BFESS=4E433986F8AB89C3; BDUSS_BFESS=VdycFZMMHVKa1VBOVlJZXU4ZGxFbHNoZ2JMR1MwdGJwdmhjMDl-QURWaUlNUGRvSVFBQUFBJCQAAAAAAAAAAAEAAABpMJM7Y2ZrZ2hqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIijz2iIo89oZ; BAIDUID_BFESS=E910E5C94A8D4F74E24A2A803CC61AB5:FG=1; ZFY=bc:Af5ydHiXzG3U70pmU2ZhbU5Mm698PCJsth9s:ASeZo:C",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/polling-Czxh5FTa.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "worker",
+    "sec-fetch-mode": "same-origin",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/common/avatar.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/user/info", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/project?id=e8d297baeb01e1a0f0318c4daaaf584f", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/plan/benefit/setting", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://dbjibobgilijgolhjdcbdebjhejelffo/configs/content_css_list.json", {
+  "referrer": "",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://dbjibobgilijgolhjdcbdebjhejelffo/static/css/26057.css", {
+  "referrer": "",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://dbjibobgilijgolhjdcbdebjhejelffo/static/css/content.css", {
+  "referrer": "",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/project/update", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": "{\"id\":\"e8d297baeb01e1a0f0318c4daaaf584f\",\"content\":\"【剧本大纲】\\r\\n片名：《龙鳞竞渡》\\r\\n分镜1：端午前夕，江南古镇，柳夜熙正在直播龙舟彩排。镜头给到热闹的彩排现场，随后聚焦在河道中漂浮的刻满甲骨文的青铜龙鳞上。分镜2：柳夜熙好奇地触碰青铜龙鳞，瞬间时空扭曲，光芒闪耀。分镜3：身着碧色曲裾的少女敖灵从水雾中跌落，重重摔在地上。分镜4：特写敖灵腰间的银锁，上面刻着失传的百越族徽记。分镜5：回忆画面，千年前，敖灵作为百越龙女祭司，参与用龙舟封印蛟魔王的场景。分镜6：回到现代，敖灵讲述自己因封印蛟魔王被诅咒困在时间夹缝，每到端午龙舟击鼓，记忆就会重置。分镜7：现代龙舟赛现场，河道突然出现漩涡，开始吞没游船，人们惊慌失措。分镜8：柳夜熙和敖灵在古镇老药铺，发现艾草能显形魔气，两人将雄黄酒装入无人机。分镜9：无人机喷洒雄黄酒，追踪到蛟魔藏身的废弃船坞，两人准备决战。分镜10：最终决战在龙舟决赛展开，柳夜熙驾驶加装龙鳞的智能龙舟，敖灵以古法击鼓引动水灵。两艘龙舟并驾齐驱划过终点线刹那，百越古龙舟虚影与现代龙舟重叠，蛟魔在浩然正气中消散 。\\r\\n【人物小传】\\r\\n柳夜熙（现代）\\r\\n25岁，非遗文化博主，左耳戴着改良版艾草香囊耳坠。幼时溺水被龙舟队救起，自此精通十几种地方龙舟调。随身携带的GoPro总能拍到灵异光斑，实际是开了天眼不自知。武器是用AR技术强化过的船桨型自拍杆。\\r\\n敖灵（古代）\\r\\n外表18岁的百越龙女，实际已守护沅水三百年。青丝间别着陨铁打造的龙牙簪，能召唤水雾结界。因长期困在时间循环，对现代事物有碎片化认知，会把手机称为「方寸流光匣」。战斗时会化作半龙形态，鳞片泛着青铜器特有的黑金光泽。\\r\\n【核心意象】\\r\\n用3D水墨风格呈现蛟魔的流动形态，其躯干由历代沉船残骸组成，双眼是两盏破损的河灯。每次被艾草烟雾灼伤，会脱落带着不同朝代纹样的鳞片，这些鳞片落地即化成龙舟模型，暗示它本就是龙舟竞渡孕育的执念集合体。\"}",
+  "method": "POST"
+}); ;
+fetch("https://abtestvm.bytedance.com/service/2/abtest_config/", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://abtestvm.bytedance.com/service/2/abtest_config/", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json; charset=UTF-8",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "{\"header\":{\"aid\":586864,\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\",\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":{\"extension_version\":\"1.29.2\",\"pc_version\":\"1.29.2\"},\"ab_sdk_version\":\"9906316,90924124,91234107\",\"ab_url\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\"}}",
+  "method": "POST"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json; charset=UTF-8",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "[{\"events\":[{\"event\":\"login_status\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"status\\\":\\\"logined\\\",\\\"event_index\\\":1761288965844}\",\"local_time_ms\":1761288156950,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"},{\"event\":\"predefine_pageview_all\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"event_index\\\":1761288965843}\",\"local_time_ms\":1761288156949,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"},\"local_time\":1761288156,\"verbose\":1}]",
+  "method": "POST"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json; charset=UTF-8",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "[{\"events\":[{\"event\":\"predefine_pageview\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"title\\\":\\\"OneStory\\\",\\\"url\\\":\\\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\\\",\\\"url_path\\\":\\\"/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\\\",\\\"time\\\":1761288156953,\\\"referrer\\\":\\\"\\\",\\\"$is_first_time\\\":\\\"false\\\",\\\"event_index\\\":1761288965845}\",\"local_time_ms\":1761288156953,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"},\"local_time\":1761288157,\"verbose\":1}]",
+  "method": "POST"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://onestory.art/createone.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json; charset=UTF-8",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "[{\"events\":[{\"event\":\"abtest_exposure\",\"ab_sdk_version\":\"9906316\",\"params\":\"{\\\"ab_url\\\":\\\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\\\"}\",\"local_time_ms\":1761288159810}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"}},{\"events\":[{\"event\":\"abtest_exposure\",\"ab_sdk_version\":\"90924124\",\"params\":\"{\\\"ab_url\\\":\\\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\\\"}\",\"local_time_ms\":1761288159810}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"}},{\"events\":[{\"event\":\"abtest_exposure\",\"ab_sdk_version\":\"91234107\",\"params\":\"{\\\"ab_url\\\":\\\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView\\\"}\",\"local_time_ms\":1761288159810}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"}}]",
+  "method": "POST"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://onestory.art/api/ai/chat", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/scriptView"
+  },
+  "body": "{\"prompt\":\"hello\",\"projectId\":\"e8d297baeb01e1a0f0318c4daaaf584f\"}",
+  "method": "POST"
+}); ;
+fetch("https://onestory.art/assets/roleView-Dg369zs2.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/GenerateError-D-1vWmSM.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/meh-CP2z4gPh.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/GenerateLoader-BB9yX5Sg.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/useTour-15hTPBQf.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/no-role-gxtwlA8K.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/roleView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/role/list", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODEzNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjIlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_TLDTEST=MQ==",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/roleView"
+  },
+  "body": "{\"projectId\":\"e8d297baeb01e1a0f0318c4daaaf584f\",\"showAll\":true,\"origin\":1}",
+  "method": "POST"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "{\"api_key\":\"1449591c6ec2e4a23f2c414d3507db3e\",\"events\":[{\"device_id\":\"cd892ecb-6abf-4ca0-a2b7-191d8c621a85\",\"session_id\":1761288111600,\"time\":1761288176732,\"platform\":\"Web\",\"language\":\"zh-CN\",\"ip\":\"$remote\",\"insert_id\":\"e900492b-853b-4503-be4f-455159987a4e\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"onestory.art\",\"[Amplitude] Page Location\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/roleView\",\"[Amplitude] Page Path\":\"/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/roleView\",\"[Amplitude] Page Title\":\"OneStory\",\"[Amplitude] Page URL\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/roleView\",\"[Amplitude] Page Counter\":3},\"event_id\":63,\"library\":\"amplitude-ts/2.9.3\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"},{\"device_id\":\"cd892ecb-6abf-4ca0-a2b7-191d8c621a85\",\"session_id\":1761288111600,\"time\":1761288176739,\"platform\":\"Web\",\"language\":\"zh-CN\",\"ip\":\"$remote\",\"insert_id\":\"421baeb7-9285-4719-ba9d-3bd2b92bb818\",\"event_type\":\"actors_show\",\"event_id\":64,\"library\":\"amplitude-ts/2.9.3\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}],\"options\":{},\"client_upload_time\":\"2025-10-24T06:42:57.734Z\"}",
+  "method": "POST"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_02.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_01.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/generate_figure_lora_images/role_lora_mygzmn.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json; charset=UTF-8",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "[{\"events\":[{\"event\":\"image_ai_function_entrance_show\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"current_page\\\":\\\"onestory_art\\\",\\\"show_from\\\":\\\"above_image_function\\\",\\\"event_index\\\":1761288965847}\",\"local_time_ms\":1761288181254,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"},{\"event\":\"image_ask_doubao_show\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"current_page\\\":\\\"web_otherpage\\\",\\\"web_address\\\":\\\"onestory.art\\\",\\\"is_web_ai_assistant\\\":\\\"original_page\\\",\\\"show_from\\\":\\\"above_image_button\\\",\\\"event_index\\\":1761288965846}\",\"local_time_ms\":1761288181254,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"},\"local_time\":1761288181,\"verbose\":1}]",
+  "method": "POST"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json; charset=UTF-8",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "[{\"events\":[{\"event\":\"image_ai_function_entrance_show\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"current_page\\\":\\\"onestory_art\\\",\\\"show_from\\\":\\\"above_image_function\\\",\\\"event_index\\\":1761288965849}\",\"local_time_ms\":1761288183385,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"},{\"event\":\"image_ask_doubao_show\",\"params\":\"{\\\"_staging_flag\\\":0,\\\"current_page\\\":\\\"web_otherpage\\\",\\\"web_address\\\":\\\"onestory.art\\\",\\\"is_web_ai_assistant\\\":\\\"original_page\\\",\\\"show_from\\\":\\\"above_image_button\\\",\\\"event_index\\\":1761288965848}\",\"local_time_ms\":1761288183385,\"is_bav\":0,\"ab_sdk_version\":\"9906316,90924124,91234107\",\"session_id\":\"cf0f9266-c6e8-4059-a8f6-858089b86eee\"}],\"user\":{\"user_unique_id\":\"293269645312535510\",\"user_id\":\"2939458055047392\",\"user_is_login\":false,\"web_id\":\"7564624831300945451\"},\"header\":{\"app_id\":586864,\"os_name\":\"mac\",\"os_version\":\"10_15_7\",\"device_model\":\"Macintosh\",\"language\":\"zh-CN\",\"platform\":\"web\",\"sdk_version\":\"5.2.7\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1512x982\",\"browser\":\"Chrome\",\"browser_version\":\"140.0.0.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1512,\"height\":982,\"screen_width\":1512,\"screen_height\":982,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"extension_version\\\":\\\"1.29.2\\\",\\\"pc_version\\\":\\\"1.29.2\\\"}\"},\"local_time\":1761288183,\"verbose\":1}]",
+  "method": "POST"
+}); ;
+fetch("https://mcs.zijieapi.com/list", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://static.chuangyi-keji.com/generate_figure_lora_images/LoraActorLyx.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/tableView-CvBoAvt-.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE3NjczOSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjQlMkMlMjJwYWdlQ291bnRlciUyMiUzQTMlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/sortable.esm-DSmaJ403.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE3NjczOSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjQlMkMlMjJwYWdlQ291bnRlciUyMiUzQTMlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/useEditShot-CGzi_goO.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE3NjczOSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjQlMkMlMjJwYWdlQ291bnRlciUyMiUzQTMlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "{\"api_key\":\"1449591c6ec2e4a23f2c414d3507db3e\",\"events\":[{\"device_id\":\"cd892ecb-6abf-4ca0-a2b7-191d8c621a85\",\"session_id\":1761288111600,\"time\":1761288185961,\"platform\":\"Web\",\"language\":\"zh-CN\",\"ip\":\"$remote\",\"insert_id\":\"b39e0034-7591-4f39-bf09-cb3d7d002148\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"onestory.art\",\"[Amplitude] Page Location\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView\",\"[Amplitude] Page Path\":\"/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView\",\"[Amplitude] Page Title\":\"OneStory\",\"[Amplitude] Page URL\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView\",\"[Amplitude] Page Counter\":4},\"event_id\":65,\"library\":\"amplitude-ts/2.9.3\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}],\"options\":{},\"client_upload_time\":\"2025-10-24T06:43:06.962Z\",\"request_metadata\":{\"sdk\":{\"metrics\":{\"histogram\":{}}}}}",
+  "method": "POST"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://onestory.art/api/storyboard/header_list", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE4NTk2MSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjUlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/list?projectId=e8d297baeb01e1a0f0318c4daaaf584f", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE4NTk2MSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjUlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/MainRoleCell-DBmqaQd1.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/SelectCell-B30VVEIl.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/DurationCell-Dh1v46bF.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/01.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "{\"api_key\":\"1449591c6ec2e4a23f2c414d3507db3e\",\"events\":[{\"device_id\":\"cd892ecb-6abf-4ca0-a2b7-191d8c621a85\",\"session_id\":1761288111600,\"time\":1761288190387,\"platform\":\"Web\",\"language\":\"zh-CN\",\"ip\":\"$remote\",\"insert_id\":\"3f1b071e-f8ad-4e55-a684-d0f237d04d22\",\"event_type\":\"lens_show\",\"event_id\":66,\"library\":\"amplitude-ts/2.9.3\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}],\"options\":{},\"client_upload_time\":\"2025-10-24T06:43:11.388Z\",\"request_metadata\":{\"sdk\":{\"metrics\":{\"histogram\":{}}}}}",
+  "method": "POST"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/02.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/generate_figure_lora_images/LoraActorLyx_avatar.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/03.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/04.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/generate_figure_lora_images/role_lora_mygzmn_avatar.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/05.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/06.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/07.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/08.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/09.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/10.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/role/list", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView"
+  },
+  "body": "{\"projectId\":\"e8d297baeb01e1a0f0318c4daaaf584f\",\"showAll\":false,\"origin\":2}",
+  "method": "POST"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_01_Avatar.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_02.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_01.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,size_18,text_b25lc3RvcnkuYXJ0IEFJ55Sf5oiQ,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_10/resize,w_500,limit_0", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_02_Avatar.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/update/v2", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView"
+  },
+  "body": "{\"projectId\":\"e8d297baeb01e1a0f0318c4daaaf584f\",\"storyboardId\":\"1981589264722923521\",\"col4\":{\"name\":\"主要人物\",\"value\":[{\"roleId\":\"1981589264626454528\",\"figureName\":\"柳夜熙\",\"mainFigureUrl\":\"https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_01_Avatar.png\"},{\"roleId\":\"1981589264601288704\",\"figureName\":\"敖灵\",\"mainFigureUrl\":\"https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/Character_02_Avatar.png\"}],\"type\":\"input\"}}",
+  "method": "POST"
+}); ;
+fetch("https://onestory.art/api/storyboard/list?projectId=e8d297baeb01e1a0f0318c4daaaf584f", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/tableView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/videoView-DypXADc6.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/index.es-B86UyEOS.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/pause-v7SpFPX1.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODE5MDM4NyUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjYlMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q="
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/assets/videoView-DFZlIWm6.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODIwNDg3NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjclMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": "{\"api_key\":\"1449591c6ec2e4a23f2c414d3507db3e\",\"events\":[{\"device_id\":\"cd892ecb-6abf-4ca0-a2b7-191d8c621a85\",\"session_id\":1761288111600,\"time\":1761288204875,\"platform\":\"Web\",\"language\":\"zh-CN\",\"ip\":\"$remote\",\"insert_id\":\"830f4898-04c8-40a1-b5ad-a339a06d5d7a\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"onestory.art\",\"[Amplitude] Page Location\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView\",\"[Amplitude] Page Path\":\"/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView\",\"[Amplitude] Page Title\":\"OneStory\",\"[Amplitude] Page URL\":\"https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView\",\"[Amplitude] Page Counter\":5},\"event_id\":67,\"library\":\"amplitude-ts/2.9.3\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}],\"options\":{},\"client_upload_time\":\"2025-10-24T06:43:25.877Z\",\"request_metadata\":{\"sdk\":{\"metrics\":{\"histogram\":{}}}}}",
+  "method": "POST"
+}); ;
+fetch("https://api2.amplitude.com/2/httpapi", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://onestory.art/api/storyboard/list?projectId=e8d297baeb01e1a0f0318c4daaaf584f", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODIwNDg3NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjclMkMlMjJwYWdlQ291bnRlciUyMiUzQTUlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJGMkQ5NERGRjI4RjExRUZCMTk3RUI3NzgzRjQxNEQ5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjJGMkQ5NEUwRjI4RjExRUZCMTk3RUI3NzgzRjQxNEQ5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MkYyRDk0RERGMjhGMTFFRkIxOTdFQjc3ODNGNDE0RDkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MkYyRDk0REVGMjhGMTFFRkIxOTdFQjc3ODNGNDE0RDkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7pArxsAAAAGklEQVR42mL8//8/AymAiYFEMKphpGgACDAA9VgDFV0zoIYAAAAASUVORK5CYII=", {
+  "referrer": "",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/dialogue_tts/e8d297baeb01e1a0f0318c4daaaf584f", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODIwNDg3NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjclMkMlMjJwYWdlQ291bnRlciUyMiUzQTUlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/01.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/02.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/03.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/04.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/05.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/06.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/07.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/08.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/09.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/10.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chuangyi-keji.com/Showcase/ShowcaseLYX0603/01.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/video_model/list", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODIwNDg3NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjclMkMlMjJwYWdlQ291bnRlciUyMiUzQTUlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/plan/benefit/setting", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODIwNDg3NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjclMkMlMjJwYWdlQ291bnRlciUyMiUzQTUlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://onestory.art/api/storyboard/generate/history", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjM2OTYiLCJleHAiOjE3NjM4Njg1MjZ9.R5GV1RslaVvTG-oKpCmvxCE-NvZ6HGrEcmqepyQ6UjU",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "Hm_lvt_26f513fb9586da8472f4b91c21144515=1761276475; HMACCOUNT=4E433986F8AB89C3; _c_WBKFRo=BQrhB26xt4HVwWK7FwWSXWYHiTtI2BicEV3yN9rd; _nb_ioWEgULi=; AMP_MKTG_1449591c6e=JTdCJTdE; Hm_lpvt_26f513fb9586da8472f4b91c21144515=1761288151; AMP_1449591c6e=JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDg5MmVjYi02YWJmLTRjYTAtYTJiNy0xOTFkOGM2MjFhODUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYxMjg4MTExNjAwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MTI4ODIwNDg3NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNjclMkMlMjJwYWdlQ291bnRlciUyMiUzQTUlN0Q=",
+    "Referer": "https://onestory.art/dashboard/e8d297baeb01e1a0f0318c4daaaf584f/videoView"
+  },
+  "body": "{\"projectId\":\"e8d297baeb01e1a0f0318c4daaaf584f\",\"storyboardId\":\"1981589264722923521\"}",
+  "method": "POST"
+}); ;
+fetch("https://static.chuangyi-keji.com/Video_List/icon/basics.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-storage-access": "active",
+    "Referer": "https://onestory.art/"
+  },
+  "body": null,
+  "method": "GET"
+});
